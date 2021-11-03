@@ -1,0 +1,36 @@
+.container {
+  padding-top: 10px;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+  background-color: #f1f1f1;
+  padding: 16px;
+  text-align: center;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* .container{
+    border: 5px ;
+    border-color: cornflowerblue;
+    margin: 10px auto;
+    align-items: center;
+    width: 40%;
+    background-color: crimson;
+}
+
+ */
